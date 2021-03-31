@@ -39,7 +39,7 @@ public class CadastroFuncionarios {
 			throw new FuncionarioNaoCadastradoException();
 		}else {
 			for(Funcionario temp: funcionarios) {
-				if(temp.getCodigo() == f.getCodigo());{
+				if(temp.getCodigo() == f.getCodigo()){
 					f = temp;
 					break;
 				}
